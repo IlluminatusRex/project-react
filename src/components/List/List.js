@@ -1,7 +1,8 @@
 import styles from './List.module.scss';
 import Column from './../Column/Column';
-import ColumnForm from './../ColumnForm/ColumnForm';
 import { useState } from 'react';
+import ColumnForm from './../ColumnForm/ColumnForm';
+
 import shortid from 'shortid';
 
 const List = props => {
