@@ -1,0 +1,37 @@
+@import '../../styles/settings.scss';
+.NavBar {
+    background-color: darken($color-dark, 3%);
+    justify-content: space-between;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.NavBarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavBarList li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+.icon {
+    color: white;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.icon::before {
+    color: white;
+    font-size: ($base-size * 2);
+    vertical-align: middle;
+    position: relative;
+}
