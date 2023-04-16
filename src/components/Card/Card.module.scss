@@ -10,4 +10,22 @@
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    color: $color-dark;
 }
+
+.button {
+    width: 17px;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+  
+    .icon {
+      font-size: 16px;
+      margin-left: 5px;
+    }
+  }
+  
+  .isActive {
+    transform: scale(1.2);
+    color: rgb(119, 77, 235);
+  }
