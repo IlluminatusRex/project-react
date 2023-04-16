@@ -19,7 +19,7 @@ const Card = props => {
                 <button
                     onClick={handleClick}
                     className={clsx(styles.button, props.isFavourite && styles.isActive)}>
-                <i className={'fa fa-star-o'} />
+                <i className={clsx( !props.isFavourite && 'fa fa-star-o', props.isFavourite && 'fa fa-star')} />
                 </button>
             </div>
         </li>
