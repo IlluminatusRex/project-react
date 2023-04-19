@@ -2,7 +2,7 @@ import styles from './Home.module.scss';
 import Hero from '../Hero/Hero';
 import Lists from '../Lists/Lists';
 import { useDispatch } from 'react-redux'
-import { updateSearch } from '../../redux/store';
+import { updateSearch } from '../../redux/searchStringRedux';
 import ListForm from '../ListForm/ListForm';
 
 const Home = props => {
